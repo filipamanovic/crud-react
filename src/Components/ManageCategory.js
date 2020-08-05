@@ -93,7 +93,7 @@ function ManageCategory() {
                      name="categoryName" value={category.categoryName}
                      onChange={handleInputChange}
                      required
-                     pattern="[A-z\dđšžćčĐŠŽĆČ]{2,20}"
+                     pattern="[A-z\dđšžćčĐŠŽĆČ\s]{2,20}"
                      title="Only characters and numbers 2 - 20"
               />
             </div>
